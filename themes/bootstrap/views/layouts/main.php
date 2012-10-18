@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8" />
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -15,6 +16,7 @@
 	'type'=>'inverse',
 	'brand'=>Yii::app()->name,
 	'brandUrl'=>Yii::app()->request->baseUrl,
+	'collapse'=>true,
 	'items'=>array(
 		array(
 			'class'=>'bootstrap.widgets.TbMenu',

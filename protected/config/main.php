@@ -87,6 +87,8 @@ return array(
 		),
 	),
 
+	'theme'=>'bootstrap',
+
 	// application-level parameters that can be accessed
 	// using Yii::app()->params['paramName']
 	'params'=>array(

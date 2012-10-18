@@ -1,0 +1,69 @@
+body
+{
+	margin: 0;
+	padding: 40px 0 0 0;
+}
+
+#page
+{
+	margin-top: 20px;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 0;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #CCC;
+}
+
+.portlet-decoration
+{
+	padding: 3px 4px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #999;
+}
+
+.portlet-title
+{
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #999;
+}
+
+/* parts */
+
+.rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #CCC;
+}
+
+/* form */
+
+.hint
+{
+	margin: 0;
+	padding: 0;
+	color: #999;
+}
+
+.note
+{
+	font-style: italic;
+}
+
+span.required
+{
+	color: red;
+}
+
